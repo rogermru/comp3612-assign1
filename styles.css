@@ -1,0 +1,319 @@
+
+header {background-color: #1D2545 ;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 3px;
+    padding-left: 20px;
+}
+
+header h3{color:#e1e2e4;
+}
+
+header span{color:#ca870a;
+}
+
+nav{padding:1.5em;
+}
+
+.buttons {color:#e1e2e4;
+    padding: 0.5em;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.buttons.home {background-color: #425396;
+
+}
+
+
+.buttons.about {background-color: #425396;
+}
+
+.buttons:hover {background-color:#425396;
+}
+
+h1{color:white;
+}
+
+
+/* footer {background-color: #1D2545;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color:#e1e2e4;
+    padding: 20px;
+}*/ 
+
+.footer{background-color: #1D2545;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color:#e1e2e4;
+    padding: 20px;
+
+}
+
+
+footer p {color: #818285;
+
+}
+
+.footer_legal_mark{
+    grid-column: 1/-1;
+    border-top: 1px solid #818285;
+}
+
+.why_choose{width:50%;
+        padding: 20px;
+}
+
+.comp_fashion{background-color: #293668;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    padding-bottom: 50px;
+
+}
+
+.comp_fashion_div {
+    grid-row: 2;
+    grid-column: 2;
+}
+.comp_fashion_header {width: 200px;
+    color: #e1e2e4;
+    
+}
+
+.comp_fashion_p {width: 400px;
+    color: #818285;
+    margin-bottom: 30px;
+
+}
+
+.buttons.shop{background-color: #d69128;
+    color: #000000;
+}
+
+
+.product_section{background-color: #dee1e4;
+    padding: 20px;
+}
+
+.prod_display{display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    padding-left: 75px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.card{display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#c0c3c5;
+    border-top: 4px solid #087979;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.card div img{align-self: center;
+    width: 75%;
+    height: 75%;
+}
+
+.card div {background-color: #dee1e4;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+h3 {color:#070742;
+
+}
+
+
+/* about.html */
+
+.about_comp3612 {background-color: #293668;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.our_story {background-color: #dee1e4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px;
+    padding-left: 200px;
+}
+
+.our_values{padding: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+    text-align: center;
+    padding-top: 75px;
+    padding-top: 50px;
+}
+
+.our_values h4{
+    color:#070742;
+}
+
+.values_card_row{display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.values_card{background-color: #dee1e4;;
+    padding: 20px;
+    text-align: left;
+    border: 1px solid #c0c3c5; 
+}
+
+.values_card_div{background-color: #1D2545;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    padding-top:3px;
+    padding-bottom: 3px;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+
+.meet_our_team{background-color: #dee1e4;
+    padding: 200px;
+    border-top: 1px solid #c0c3c5; 
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+
+.meet_our_team_top{display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+}
+
+.team_profiles{display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 500px 200px;
+    gap: 30px;
+}
+
+.team_profiles h4{color:#1D2545 ;
+
+}
+.team_profiles h5{color: #ca870a;
+}
+
+
+.image_section_ceo{display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    border: 1px solid #c0c3c5; 
+    grid-column: 1;
+    grid-row: 1;
+
+}
+
+.image_section_tester{display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    border: 1px solid #c0c3c5; 
+    grid-column: 2;
+    grid-row: 1;
+
+}
+
+.image_section_family{display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    border: 1px solid #c0c3c5; 
+    grid-column: 3;
+    grid-row: 1;
+   
+}
+
+.info_section_ceo{grid-column: 1;
+    grid-row: 2;
+ 
+
+}
+
+.info_section_tester{grid-column: 2;
+    grid-row: 2;
+   
+}
+
+.info_section_family{grid-column: 3;
+    grid-row: 2;
+  
+
+}
+
+.our_journey{padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.our_journey h3{text-align: center;
+    margin-bottom: 20px;
+}
+
+.timeline_container h6{color:#087979;
+}
+
+.timeline_div{display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+
+}
+
+.timeline_container{border-left: 1px solid #c0c3c5; 
+    display:flex;
+    flex-direction: column;
+    grid-column: 2;
+    grid-row: 1;
+    padding: 20px;
+}
+
+.get_in_touch {background-color: #dee1e4;
+    padding: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 1px solid #c0c3c5; 
+
+}
+
+.get_in_touch_card_row{display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 40px;
+
+}
+
+.showroom_card{background-color: white;
+    border: 1px solid #c0c3c5;
+    grid-column: 1;
+    grid-row:1;
+    padding: 10px;
+
+}
+
+.contact_us_card{background-color: white;
+    border: 1px solid #c0c3c5;
+    grid-column: 2;
+    grid-row:1;
+    padding: 10px
+}
+
